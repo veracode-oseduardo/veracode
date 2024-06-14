@@ -45,7 +45,7 @@ veracode_sca_scan:
     # Entering both will only execute branches_to_run
     # Leaving them both blank means this will never run
     branches_to_run:
-      - '*'
+      - 'feature'
     branches_to_exclude:
   pull_request:
     trigger: true
@@ -72,7 +72,7 @@ veracode_iac_secrets_scan:
     # Entering both will only execute branches_to_run
     # Leaving them both blank means this will never run
     branches_to_run:
-      - '*'
+      - 'feature'
     branches_to_exclude:
   pull_request:
     trigger: true
