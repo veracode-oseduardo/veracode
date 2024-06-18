@@ -53,7 +53,7 @@ veracode_sca_scan:
       - opened
       - synchronize
     target_branch:
-      - default_branch
+      - dev
   # If the break_build_on_error is set to true, the build will break if the scan failed to complete or with an error, no libraries were found, 
   # or no build system was found and the error_message will be displayed.
   break_build_on_error: true
@@ -80,7 +80,7 @@ veracode_iac_secrets_scan:
       - opened
       - synchronize
     target_branch:
-      - default_branch
+      - dev
   # If break_build_policy_findings is set to true, the build will break when findings violate the policy.
   break_build_policy_findings: true
   # If the break_build_on_error is set to true, the build will break if the scan failed to complete or with an error, no libraries were found, 
